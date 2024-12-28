@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient( orangered , white , green );
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.subhaflag{
+    height: 27rem;
+    width: 60rem;
+    background-color: gray;
+}
+.color1{
+    height: 9rem;
+    background-color: orangered;
+}
+.color2{
+    height: 9rem;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+}
+.color2 img{
+    height: 9rem;
+}
+.color3{
+    height: 9rem;
+    background-color:green ;
+}
